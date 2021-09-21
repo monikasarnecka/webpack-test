@@ -2,12 +2,22 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200;300;400&display=swap');
+
+:root{
+  --background-color:white;
+  --text-color:black;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: var(--background-color);
+  color:var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: 'Gluten', cursive;
 }
+
+
+
